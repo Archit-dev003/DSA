@@ -1,18 +1,18 @@
 // pass by value
 
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// void modify(int val){
-//     val+=10;
-// }
+void modify(int val){
+    val+=10;
+}
 
-// int main(){
-//     int x=5;
-//     modify(x);
-//     cout<<x<<endl;
-//     return 0;
-// }
+int main(){
+    int x=5;
+    modify(x);
+    cout<<x<<endl;
+    return 0;
+}
 
 //pass by reference
 

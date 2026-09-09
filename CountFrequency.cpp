@@ -24,4 +24,5 @@ int main()
     //Number of elements = Total array size / Size of one element
 
     Frequency(arr,n);
+    
 }
